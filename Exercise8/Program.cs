@@ -16,15 +16,12 @@
             }
             Console.WriteLine(maxNumber);
 
-            Console.WriteLine("Enter number:");
+            Console.WriteLine("Enter number of asterisks:");
             int number = Int32.Parse(Console.ReadLine());
 
             for (int i = 0; i < number; i++)
             {
-                if (i < number)
-                {
                     Console.Write("*");
-                }
             }
         }
     }
